@@ -20,3 +20,81 @@ Windows: setx SDCT_CONF F:\AWS\Tasks\AWS_Serverless_tasks\task03\.syndicate-conf
 2024-04-21 11:40:34,796 [INFO] USER:Yuriy.Shevchenko lambda_function.py:319:_generate_java_lambdas LOG: Lambda hello_world created
 2024-04-21 11:40:34,797 [INFO] USER:Yuriy.Shevchenko lambda_function.py:146:generate_lambda_function LOG: Lambda hello_world has been successfully added to the project.
 2024-04-21 11:40:34,798 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage lambda_function, elapsed time: 0:00:00.033000
+2024-04-21 11:45:49,508 [INFO] USER:Yuriy.Shevchenko processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 11:45:50,154 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage test, elapsed time: 0:00:00.000964
+2024-04-21 11:45:50,166 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\jsrc\main\java\com\task03.
+2024-04-21 11:45:50,167 [INFO] USER:Yuriy.Shevchenko project_state.py:335:_update_lambdas_from_path LOG: Going to add the following 'java' lambda:'hello_world' to the pending ProjectState.
+2024-04-21 11:45:50,167 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\src\lambdas.
+2024-04-21 11:45:50,167 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\app\lambdas.
+2024-04-21 11:45:50,168 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\swagger_src.
+2024-04-21 11:45:50,171 [INFO] USER:Yuriy.Shevchenko java.py:30:assemble_java_mvn_lambdas LOG: Java sources are located by path: F:/AWS/Tasks/AWS_Serverless_tasks/task03/jsrc/main/java
+2024-04-21 11:45:50,171 [INFO] USER:Yuriy.Shevchenko java.py:31:assemble_java_mvn_lambdas LOG: Going to process java mvn project by path: F:/AWS/Tasks/AWS_Serverless_tasks/task03
+2024-04-21 11:46:02,674 [INFO] USER:Yuriy.Shevchenko java.py:44:assemble_java_mvn_lambdas LOG: Java mvn project was processed successfully
+2024-04-21 11:46:02,674 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:12.503382
+2024-04-21 11:46:02,676 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:12.505405
+2024-04-21 11:46:02,677 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage assemble, elapsed time: 0:00:12.511382
+2024-04-21 11:46:02,679 [INFO] USER:Yuriy.Shevchenko meta_processor.py:476:create_meta LOG: Bundle path: F:/AWS/Tasks/AWS_Serverless_tasks/task03/bundles/task03_240421.114549
+2024-04-21 11:46:02,689 [INFO] USER:Yuriy.Shevchenko helper.py:299:write_content_to_file LOG: F:\AWS\Tasks\AWS_Serverless_tasks\task03\.syndicate-config-dev/bundles/task03_240421.114549\build_meta.json file was created.
+2024-04-21 11:46:02,690 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage package_meta, elapsed time: 0:00:00.011611
+2024-04-21 11:46:03,237 [INFO] USER:Yuriy.Shevchenko bundle_processor.py:185:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2024-04-21 11:46:08,826 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage upload, elapsed time: 0:00:05.912000
+2024-04-21 11:46:08,833 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage build, elapsed time: 0:00:19.072863
+2024-04-21 11:47:04,392 [INFO] USER:Yuriy.Shevchenko processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 11:47:05,085 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage test, elapsed time: 0:00:00.002054
+2024-04-21 11:47:05,105 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\jsrc\main\java\com\task03.
+2024-04-21 11:47:05,106 [INFO] USER:Yuriy.Shevchenko project_state.py:335:_update_lambdas_from_path LOG: Going to add the following 'java' lambda:'hello_world' to the pending ProjectState.
+2024-04-21 11:47:05,107 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\src\lambdas.
+2024-04-21 11:47:05,107 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\app\lambdas.
+2024-04-21 11:47:05,107 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\swagger_src.
+2024-04-21 11:47:05,113 [INFO] USER:Yuriy.Shevchenko java.py:30:assemble_java_mvn_lambdas LOG: Java sources are located by path: F:/AWS/Tasks/AWS_Serverless_tasks/task03/jsrc/main/java
+2024-04-21 11:47:05,114 [INFO] USER:Yuriy.Shevchenko java.py:31:assemble_java_mvn_lambdas LOG: Going to process java mvn project by path: F:/AWS/Tasks/AWS_Serverless_tasks/task03
+2024-04-21 11:47:10,008 [ERROR] USER:Yuriy.Shevchenko helper.py:103:wrapper LOG: Execution is failed
+2024-04-21 11:47:35,420 [INFO] USER:Yuriy.Shevchenko processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 11:47:36,146 [INFO] USER:Yuriy.Shevchenko project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 11:47:36,146 [INFO] USER:Yuriy.Shevchenko project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 11:47:36,790 [INFO] USER:Yuriy.Shevchenko sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 11:47:36,791 [INFO] USER:Yuriy.Shevchenko helper.py:240:resolve_default_value LOG: Resolved value of deploy_name: task03
+2024-04-21 11:47:37,120 [INFO] USER:Yuriy.Shevchenko project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 11:47:37,120 [INFO] USER:Yuriy.Shevchenko project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 11:47:37,653 [INFO] USER:Yuriy.Shevchenko sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 11:47:37,654 [INFO] USER:Yuriy.Shevchenko helper.py:240:resolve_default_value LOG: Resolved value of bundle_name: task03_240421.021606
+2024-04-21 11:47:37,973 [INFO] USER:Yuriy.Shevchenko project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 11:47:37,973 [INFO] USER:Yuriy.Shevchenko project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 11:47:38,502 [INFO] USER:Yuriy.Shevchenko sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 11:47:38,988 [INFO] USER:Yuriy.Shevchenko project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 11:47:38,988 [INFO] USER:Yuriy.Shevchenko project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 11:47:39,550 [INFO] USER:Yuriy.Shevchenko sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 11:47:39,598 [ERROR] USER:Yuriy.Shevchenko helper.py:84:wrapper LOG: An error occurred. See details in the log file
+2024-04-21 11:47:39,598 [ERROR] USER:Yuriy.Shevchenko helper.py:85:wrapper LOG: Error occurred: Deploy name task03 does not exist. Cannot find output file.
+Traceback (most recent call last):
+  File "C:\Users\yuriy.shevchenko\AppData\Local\Programs\Python\Python311\Lib\site-packages\syndicate\core\helper.py", line 82, in wrapper
+    return handler_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yuriy.shevchenko\AppData\Local\Programs\Python\Python311\Lib\site-packages\syndicate\core\build\deployment_processor.py", line 445, in remove_deployment_resources
+    output = new_output = load_deploy_output(bundle_name, deploy_name)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yuriy.shevchenko\AppData\Local\Programs\Python\Python311\Lib\site-packages\syndicate\core\build\bundle_processor.py", line 111, in load_deploy_output
+    raise AssertionError('Deploy name {0} does not exist.'
+AssertionError: Deploy name task03 does not exist. Cannot find output file.
+2024-04-21 11:47:40,033 [INFO] USER:Yuriy.Shevchenko project_state.py:117:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2024-04-21 11:47:40,033 [INFO] USER:Yuriy.Shevchenko project_state.py:122:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2024-04-21 11:47:40,596 [INFO] USER:Yuriy.Shevchenko sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2024-04-21 11:47:47,921 [INFO] USER:Yuriy.Shevchenko processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2024-04-21 11:47:48,515 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage test, elapsed time: 0:00:00.001939
+2024-04-21 11:47:48,685 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\jsrc\main\java\com\task03.
+2024-04-21 11:47:48,686 [INFO] USER:Yuriy.Shevchenko project_state.py:335:_update_lambdas_from_path LOG: Going to add the following 'java' lambda:'hello_world' to the pending ProjectState.
+2024-04-21 11:47:48,686 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\src\lambdas.
+2024-04-21 11:47:48,686 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\app\lambdas.
+2024-04-21 11:47:48,686 [INFO] USER:Yuriy.Shevchenko project_state.py:331:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: F:\AWS\Tasks\AWS_Serverless_tasks\task03\swagger_src.
+2024-04-21 11:47:48,848 [INFO] USER:Yuriy.Shevchenko java.py:30:assemble_java_mvn_lambdas LOG: Java sources are located by path: F:/AWS/Tasks/AWS_Serverless_tasks/task03/jsrc/main/java
+2024-04-21 11:47:48,848 [INFO] USER:Yuriy.Shevchenko java.py:31:assemble_java_mvn_lambdas LOG: Going to process java mvn project by path: F:/AWS/Tasks/AWS_Serverless_tasks/task03
+2024-04-21 11:47:58,688 [INFO] USER:Yuriy.Shevchenko java.py:44:assemble_java_mvn_lambdas LOG: Java mvn project was processed successfully
+2024-04-21 11:47:58,689 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:09.874001
+2024-04-21 11:47:58,829 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage assemble_java_mvn, elapsed time: 0:00:10.013998
+2024-04-21 11:47:58,829 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage assemble, elapsed time: 0:00:10.144010
+2024-04-21 11:47:58,968 [INFO] USER:Yuriy.Shevchenko meta_processor.py:476:create_meta LOG: Bundle path: F:/AWS/Tasks/AWS_Serverless_tasks/task03/bundles/task03_240421.114747
+2024-04-21 11:47:58,974 [INFO] USER:Yuriy.Shevchenko helper.py:299:write_content_to_file LOG: F:\AWS\Tasks\AWS_Serverless_tasks\task03\.syndicate-config-dev/bundles/task03_240421.114747\build_meta.json file was created.
+2024-04-21 11:47:58,975 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage package_meta, elapsed time: 0:00:00.006972
+2024-04-21 11:47:59,727 [INFO] USER:Yuriy.Shevchenko bundle_processor.py:185:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2024-04-21 11:48:05,092 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage upload, elapsed time: 0:00:05.682028
+2024-04-21 11:48:05,250 [INFO] USER:Yuriy.Shevchenko helper.py:336:timed LOG: Stage build, elapsed time: 0:00:17.099506
