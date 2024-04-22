@@ -31,5 +31,25 @@
       "lambda-basic-execution"
     ],
     "resource_type": "iam_role"
+  },
+  "task3_api": {
+    "resource_name": "task3_api",
+    "dependencies": [],
+    "resource_type": "api_gateway",
+    "deploy_stage": "api",
+
+    "resources": {
+      "/hello": {
+        "enable_cors": true,
+        "GET": {
+          "authorization_type": "AWS_IAM",
+          "integration_type": "lambda",
+          "lambda_alias":  "${lambdas_alias_name}",
+          "enable_proxy": true,
+          "method_request_parameters": {},
+          "lambda_name": "hello_world"
+        }
+      }
+    }
   }
 }
