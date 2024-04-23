@@ -32,11 +32,11 @@
             <version>${syndicate.java.plugin.version}</version>
         </dependency>
         <!--for que-->
-        <dependency>
-            <groupId>software.amazon.awssdk</groupId>
-            <artifactId>aws-sdk-java</artifactId>
-            <version>2.16.59</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>software.amazon.awssdk</groupId>-->
+<!--            <artifactId>aws-sdk-java</artifactId>-->
+<!--            <version>2.16.59</version>-->
+<!--        </dependency>-->
         <!--for logging-->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

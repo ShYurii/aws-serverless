@@ -25,7 +25,7 @@ import java.util.Map;
 //	}
 //}
 
-import software.amazon.awssdk.services.sqs.model.Message;
+//import software.amazon.awssdk.services.sqs.model.Message;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.SQSEvent;
