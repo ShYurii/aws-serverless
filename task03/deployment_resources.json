@@ -37,19 +37,23 @@
     "dependencies": [],
     "resource_type": "api_gateway",
     "deploy_stage": "api",
-
     "resources": {
       "/hello": {
         "enable_cors": true,
         "GET": {
           "authorization_type": "NONE",
           "integration_type": "lambda",
-          "lambda_alias":  "${lambdas_alias_name}",
+          "lambda_alias": "${lambdas_alias_name}",
           "enable_proxy": false,
           "method_request_parameters": {},
           "lambda_name": "hello_world"
         }
       }
     }
+  },
+  "lambda_topic": {
+    "resource_type": "sns_topic",
+    "region": "eu-central-1",
+    "event_sources": []
   }
 }
